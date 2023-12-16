@@ -103,7 +103,7 @@
                             <Label FontFamily="{StaticResource PoppinsSemiBold}" Margin="5" Content="Scales"/>
                             <ListBox DisplayMemberPath="Name" SelectionChanged="lbScales_SelectionChanged" SelectedValuePath="{Binding Scale.Name}" Margin="5" Name="lbScales" Width="300" Height="315" SelectionMode="Single">
                             </ListBox>
-                            <Button x:Name="btnPlayScale" Style="{StaticResource PlayButton}" Content="Play" Height="40" Width="60" Click="PlayButton_Click"  ></Button>
+                            <!--<Button x:Name="btnPlayScale" Style="{StaticResource PlayButton}" Content="Play" Height="40" Width="60" Click="PlayButton_Click"  ></Button>-->
                         </StackPanel>
                         <StackPanel/>
 
